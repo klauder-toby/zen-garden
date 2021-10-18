@@ -1,0 +1,13 @@
+header {
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    max-width: 1040px;
+    position: relative;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
