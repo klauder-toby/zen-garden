@@ -45,15 +45,25 @@ h2 {
     border-radius: 25px;
 }
 
-header::after {
-    background: url(https://banner2.cleanpng.com/20180824/ehe/kisspng-barbed-wire-portable-network-graphics-clip-art-ima-border-line-43474-2-shop-of-clipart-library-5b7fcd72cadf82.482282101535102322831.jpg) 40px no-repeat;
-    clear: right;
-    content: '';
-    display: block;
-    float: left;
-    left: 50%;
-    position: relative;
-    width: 50%;
+h1:before,
+h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
 }
 
 body {
