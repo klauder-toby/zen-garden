@@ -32,7 +32,6 @@ h2 {
 
 .preamble {
     margin-top: 10px; 
-    background: rgb(138, 88, 76, .6); 
     padding: 15px; 
     width: 75%; 
     margin-right: 25%; 
@@ -41,7 +40,6 @@ h2 {
 
 .explanation {
     margin-top: 10px;
-    background: rgb(133, 134, 95, .6); 
     padding: 15px;
     width: 75%; 
     margin-left: 25%; 
@@ -49,7 +47,6 @@ h2 {
 }
 
 .participation {
-    background: rgb(138, 88, 76, .6); 
     padding: 15px;
     width: 75%;
     margin-right: 25%; 
@@ -59,7 +56,6 @@ h2 {
 
 .benefits {
     margin-top: 10px;
-    background: rgb(133, 134, 95, .6); 
     padding: 15px;
     width: 75%; 
     margin-left: 25%; 
@@ -67,7 +63,6 @@ h2 {
 }
 
 .requirements {
-    background: rgb(138, 88, 76, .6); 
     padding: 15px;
     width: 75%;
     margin-right: 25%; 
@@ -110,8 +105,8 @@ body {
 }
 
 h3 {
-    color: rgb(79, 88, 61);
-    font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    color: rgb(138, 88, 76);
+    font-family: "Allerta Stencil";
     font-size: 40px;
     font-weight: 500;
     line-height: 1.25em;
