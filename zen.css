@@ -39,21 +39,19 @@ h2 {
 }
 
 .summary {
-    background: rgb(133, 134, 95, .6);
+    background: rgb(143, 166, 172);
+    text-align: center; 
     padding: 15px;
-    width: 50%;
     border-radius: 25px;
 }
 
-h1:before,
-h1:after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
+h1:before, h1:after {
+    content: "";
+    display: inline-block;
+    height: 40px;
+    vertical-align: middle;
+    width: 70%;
+    background: url(https://o.remove.bg/downloads/23f34999-f816-4fa4-ac7a-d7f6eff63d27/download-removebg-preview.png) 40px;
 }
 
 h1:before {
