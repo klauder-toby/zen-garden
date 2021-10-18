@@ -30,20 +30,31 @@ h2 {
     font-size: 20px; 
 }
 
-.participation {
-    background: rgb(133, 134, 95, .6);
-    padding: 15px;
-    width: 50%;
-    border-radius: 25px;
-    float: right;
-}
-
 .preamble {
+    margin-top: 10px; 
     background: rgb(138, 88, 76, .6); 
     padding: 15px; 
     width: 50%; 
     margin-right: 50%; 
     border-radius: 25px 0px 25px 0px; 
+}
+
+.explanation {
+    margin-top: 10px;
+    background: rgb(133, 134, 95, .6); 
+    padding: 15px;
+    width: 50%; 
+    margin-left: 50%; 
+    border-radius: 0px 25px 0px 25px; 
+}
+
+.participation {
+    background: rgb(138, 88, 76, .6); 
+    padding: 15px;
+    width: 50%;
+    margin-right: 50%; 
+    border-radius: 25px 0px 25px 0px;
+    margin-top: 10px; 
 }
 
 .summary {
@@ -81,7 +92,7 @@ body {
 }
 
 h3 {
-    color: #dd3b2a;
+    color: rgb(79, 88, 61);
     font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
     font-size: 40px;
     font-weight: 500;
