@@ -38,6 +38,14 @@ h2 {
     float: right;
 }
 
+.preamble {
+    background: rgb(138, 88, 76, .6); 
+    padding: 15px; 
+    width: 50%; 
+    margin-right: 50%; 
+    border-radius: 25px 0px 25px 0px; 
+}
+
 .summary {
     font-size: 10px;
     text-align: center;
