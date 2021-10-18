@@ -39,10 +39,14 @@ h2 {
 }
 
 .summary {
-    background: rgb(143, 166, 172);
-    text-align: center; 
-    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
     border-radius: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 1px dashed black;
+    margin-top: 10px;
 }
 
 h1:before, h1:after {
