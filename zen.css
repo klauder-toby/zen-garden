@@ -10,6 +10,8 @@ header {
     top: 0;
     width: 100%;
     z-index: 1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px; 
 }
 
 .participation {
@@ -30,4 +32,17 @@ header {
     min-width: 412px;
     position: relative;
     width: 100%;
+}
+
+body {
+    background-color: rgb(206, 183, 147, .75); 
+}
+
+h3 {
+    color: #dd3b2a;
+    font-family: 'Adelle W01 Bold', 'Arvo', Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.25em;
+    margin: 0.5em 0;
 }
