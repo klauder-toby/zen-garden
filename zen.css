@@ -34,8 +34,8 @@ h2 {
     margin-top: 10px; 
     background: rgb(138, 88, 76, .6); 
     padding: 15px; 
-    width: 50%; 
-    margin-right: 50%; 
+    width: 75%; 
+    margin-right: 25%; 
     border-radius: 25px 0px 25px 0px; 
 }
 
@@ -43,16 +43,34 @@ h2 {
     margin-top: 10px;
     background: rgb(133, 134, 95, .6); 
     padding: 15px;
-    width: 50%; 
-    margin-left: 50%; 
+    width: 75%; 
+    margin-left: 25%; 
     border-radius: 0px 25px 0px 25px; 
 }
 
 .participation {
     background: rgb(138, 88, 76, .6); 
     padding: 15px;
-    width: 50%;
-    margin-right: 50%; 
+    width: 75%;
+    margin-right: 25%; 
+    border-radius: 25px 0px 25px 0px;
+    margin-top: 10px; 
+}
+
+.benefits {
+    margin-top: 10px;
+    background: rgb(133, 134, 95, .6); 
+    padding: 15px;
+    width: 75%; 
+    margin-left: 25%; 
+    border-radius: 0px 25px 0px 25px; 
+}
+
+.requirements {
+    background: rgb(138, 88, 76, .6); 
+    padding: 15px;
+    width: 75%;
+    margin-right: 25%; 
     border-radius: 25px 0px 25px 0px;
     margin-top: 10px; 
 }
