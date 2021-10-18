@@ -31,25 +31,30 @@ h2 {
 }
 
 .participation {
-    background: #edf6ff;
-    border-top: 5px solid #cce4fb;
-    padding-top: 15px;
-    width: 100%;
+    background: rgb(133, 134, 95, .6);
+    padding: 15px;
+    width: 50%;
+    border-radius: 25px;
+    float: right;
 }
 
-.participation:after {
-    padding: 10px; 
-    border-radius: 25px; 
+.summary {
+    background: rgb(133, 134, 95, .6);
+    padding: 15px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+header::after {
+    background: url(https://mpng.subpng.com/20180512/wce/kisspng-barbed-wire-image-file-formats-fence-5af74e91777c04.5501428615261569454894.jpg) no-repeat;
+    clear: right;
     content: '';
     display: block;
     float: left;
     height: 412px;
     left: 50%;
-    margin-top: -310px;
-    max-width: 495px;
-    min-width: 412px;
     position: relative;
-    width: 100%;
+    width: 50%;
 }
 
 body {
