@@ -122,9 +122,12 @@ h3 {
 
 .sidebar {
     height: 100%; /* Full-height: remove this if you want "auto" height */
+    position: absolute; 
     width: 20%; /* Set the width of the sidebar */
     z-index: 1; /* Stay on top */
     overflow-x: hidden; /* Disable horizontal scroll */
+    right: 0; 
+    top: 0; 
     padding-top: 20px;
   }
   
@@ -141,7 +144,3 @@ h3 {
   .sidebar a:hover {
     color: #f1f1f1;
   }
-
-#zen-intro, #zen-supporting {
-    float: right; 
-}
