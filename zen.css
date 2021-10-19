@@ -144,6 +144,6 @@ h3 {
     color: #f1f1f1;
   }
 
-  .design-selection > ul{
-    list-style: none;
+ul{
+    list-style-type: none;
   }
