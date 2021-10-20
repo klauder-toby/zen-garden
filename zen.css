@@ -160,3 +160,11 @@ ul{
   .resources {
       text-align: center; 
   }
+
+  ul:nth-child(odd) { 
+    background-color: green; 
+  }
+
+  ul:nth-child(even) {
+    background-color: red; 
+  }
