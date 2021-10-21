@@ -125,7 +125,7 @@ h3 {
     position: absolute; 
     width: 20%; 
     z-index: 1; 
-    overflow-x: hidden; 
+    overflow-x:visible; 
     right: 0; 
     top: 0; 
     padding-top: 100px;
@@ -150,19 +150,8 @@ ul{
     text-align: center; 
   }
 
-  .select {
+  .select, .archives, .resources, .footer {
       text-align: center; 
-      margin-right: 10px; 
-  }
-
-  .archives {
-      text-align: center; 
-      margin-right: 10px; 
-  }
-
-  .resources {
-      text-align: center; 
-      margin-right: 10px; 
   }
 
   li:nth-child(odd):hover { 
@@ -182,9 +171,6 @@ ul{
     margin-left: 10px;
     transition: transform .2s;
 }
-  footer {
-      text-align: center;
-  }
 
   footer > a {
       padding: 30px; 
