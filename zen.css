@@ -182,3 +182,12 @@ ul{
     margin-left: 50px;
     transition: transform .2s;
   }
+
+  .footer {
+      text-align: center;
+      width: 80%;  
+  }
+
+  .footer > a {
+      padding: 20px; 
+  }
