@@ -33,14 +33,27 @@ h2 {
 .preamble {
     margin-top: 10px; 
     padding: 15px; 
-    width: 60%; 
-    margin-right: 39%; 
-    border-radius: 25px 0px 25px 0px; 
-    float: left; 
+    width: 100%; 
+}
+
+.preamble > * {
+    float: left;
+    width: 50%;
 }
 
 .preamble:after{
     background: url("footprint.png") 400px no-repeat; 
+    clear: right;
+    content: '';
+    display: block;
+    float: left;
+    height: 412px;
+    left: 50%;
+    margin-top: -310px;
+    max-width: 495px;
+    min-width: 412px;
+    position: relative;
+    width: 100%;
 }
 
 .explanation {
