@@ -39,6 +39,21 @@ h2 {
     float: right;
 }
 
+.preamble:after {
+    background: url("footprint.png") 40px center no-repeat;
+    clear: right;
+    content: '';
+    display: block;
+    float: left;
+    height: 412px;
+    left: 50%;
+    margin-top: -310px;
+    max-width: 495px;
+    min-width: 412px;
+    position: relative;
+    width: 100%;
+}
+
 .explanation {
     margin-top: 10px;
     padding: 15px;
@@ -183,5 +198,5 @@ ul{
   }
 
   footer > a {
-      padding: 20px; 
+      padding: 30px; 
   }
