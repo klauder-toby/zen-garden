@@ -101,7 +101,7 @@ body {
 
 h3 {
     color: rgb(138, 88, 76);
-    font-family: "Allerta Stencil";
+    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     font-weight: 500;
     line-height: 1.25em;
