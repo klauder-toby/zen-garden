@@ -150,7 +150,7 @@ ul{
     text-align: center; 
   }
 
-  ul:last-child {
+  li:last-child {
     margin-bottom: 38px; 
   }
 
