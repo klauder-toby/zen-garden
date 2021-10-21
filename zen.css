@@ -150,8 +150,9 @@ ul{
     text-align: center; 
   }
 
-  .select, .archives, .resources, .footer {
-      text-align: center; 
+  .select, .archives, .resources {
+    font-size: 0; 
+    border-top: 1px solid black; 
   }
 
   li:nth-child(odd):hover { 
@@ -171,6 +172,9 @@ ul{
     margin-left: 10px;
     transition: transform .2s;
 }
+  footer {
+      text-align: center;
+  }
 
   footer > a {
       padding: 30px; 
