@@ -31,35 +31,13 @@ h2 {
 }
 
 .preamble {
-    display: table;
     width: 80%;
-    height: fit-content;
     margin-top: 30px;
-}
-
-.premable>p {
-    display: table-cell; 
-    width: 50%;
-}
-
-.preamble:after {
-    display: table-cell;
-    content: '';
-    width: 20%;
-    background: no-repeat center/50% url(footprint3.png);
-}
-
-.explanation:before {
-    display: table-cell; 
-    width: 20%; 
-    content: ''; 
-    background: no-repeat center/50% url(footprint3.png);
+    float: right; 
 }
 
 .explanation {
-    display: table; 
-    width: 80%; 
-    height: 210px;
+    width: 20%; 
     margin-top: 30px; 
 }
 
