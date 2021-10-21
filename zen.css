@@ -31,8 +31,10 @@ h2 {
 }
 
 .preamble {
-    display: table; 
+    display: table;
     width: 80%;
+    height: fit-content;
+    margin-top: 30px;
 }
 
 .premable>p {
@@ -41,18 +43,29 @@ h2 {
 }
 
 .preamble:after {
-    background: url("footprint3.png") no-repeat;
-    display: table-cell; 
+    display: table-cell;
     content: '';
-    width: 30%; 
+    width: 20%;
+    background: no-repeat center/50% url(footprint3.png);
 }
 
 .explanation {
-    margin-top: 10px;
-    padding: 15px;
-    width: 60%; 
-    margin-left: 20%; 
-    margin-right: 20%; 
+    display: table; 
+    width: 80%; 
+    height: fit-content; 
+    margin-top: 30px; 
+}
+
+.explanation:before {
+    display: table-cell; 
+    content: '';
+    width: 20%;
+    background: no-repeat center/50% url(footprint3.png);
+}
+
+.explanation>p {
+    display: table-cell; 
+    width: 50%; 
 }
 
 .participation {
