@@ -121,24 +121,6 @@ h3 {
     margin: 0.5em 0;
 }
 
-.design-selection {
-    position: absolute; 
-    width: 20%; 
-    z-index: 1; 
-    overflow-x: visible; 
-    right: 0; 
-    top: 100px; 
-}
-
-.select {
-    position: absolute; 
-    width: 20%; 
-    z-index: 1; 
-    overflow-x: visible; 
-    right: 0;
-    top: 0; 
-}
-
 .sidebar {
     position: absolute; 
     width: 20%; 
