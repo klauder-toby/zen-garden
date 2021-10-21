@@ -30,50 +30,31 @@ h2 {
     font-size: 20px; 
 }
 
-.preamble {
-    width: 60%;
-    margin-top: 30px;
-    float: left; 
-}
-
-.explanation {
-    width: 20%; 
-    margin-top: 30px; 
-}
-
-.participation {
-    display: table;
-    width: 80%;
-    height: fit-content;
-    margin-top: 30px;
-}
-
-.participation:after {
+.preamble:after, .participation:after, .requirements:after {
     display: table-cell;
     content: '';
     width: 20%;
     background: no-repeat center/50% url(footprint3.png);
 }
 
-.benefits:before {
+.explanation:before, .benefits:before {
     display: table-cell; 
     width: 20%; 
     content: ''; 
     background: no-repeat center/50% url(footprint3.png);
 }
-
-.benefits {
+.explanation, .benefits {
     display: table; 
     width: 80%; 
-    height: 210px; 
+    height: 210px;
     margin-top: 30px; 
 }
 
-.requirements:after {
-    display: table-cell; 
-    width: 20%; 
-    content: ''; 
-    background: no-repeat center/50% url(footprint3.png);
+.participation, .requirements, .preamble {
+    display: table;
+    width: 80%;
+    height: fit-content;
+    margin-top: 30px;
 }
 
 .requirements {
