@@ -59,7 +59,7 @@ h2 {
 .explanation {
     display: table; 
     width: 80%; 
-    height: fit-content; 
+    height: 210px;
     margin-top: 30px; 
 }
 
@@ -77,20 +77,32 @@ h2 {
     background: no-repeat center/50% url(footprint3.png);
 }
 
-.benefits {
-    margin-top: 10px;
-    padding: 15px;
-    width: 60%; 
-    margin-left: 20%;
-    margin-right: 20%;  
+.benefits:before {
+    display: table-cell; 
+    width: 20%; 
+    content: ''; 
+    background: no-repeat center/50% url(footprint3.png);
+}
 
+.benefits {
+    display: table; 
+    width: 80%; 
+    height: 210px; 
+    margin-top: 30px; 
+}
+
+.requirements:before {
+    display: table-cell; 
+    width: 20%; 
+    content: ''; 
+    background: no-repeat center/50% url(footprint3.png);
 }
 
 .requirements {
-    padding: 15px;
-    width: 60%;
-    margin-right: 39%; 
-    margin-top: 10px; 
+    display: table; 
+    width: 80%; 
+    height: 210px;
+    margin-top: 30px; 
 }
 
 .summary {
@@ -138,15 +150,15 @@ h3 {
 
 .sidebar {
     position: absolute; 
-    width: 20%; /* Set the width of the sidebar */
-    z-index: 1; /* Stay on top */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    width: 20%; 
+    z-index: 1; 
+    overflow-x: hidden; 
     right: 0; 
     top: 0; 
     padding-top: 100px;
   }
   
-  /* The navigation menu links */
+ 
   .sidebar a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -155,7 +167,7 @@ h3 {
     display: block;
   }
   
-  /* When you mouse over the navigation links, change their color */
+
   .sidebar a:hover {
     color: #f1f1f1;
   }
