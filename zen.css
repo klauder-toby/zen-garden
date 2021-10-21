@@ -121,7 +121,7 @@ h3 {
     margin: 0.5em 0;
 }
 
-.sidebar {
+.sidebar, .select, .resources, .archives {
     position: absolute; 
     width: 20%; 
     z-index: 1; 
