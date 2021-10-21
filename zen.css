@@ -171,8 +171,9 @@ ul{
     border: 1px solid rgb(79, 88, 61); 
   }
 
-  .explanation:after{
-      content: url(footprint.png) 40px; 
+  .preamble:after{
+      content: url(footprint.png); 
+      z-index: 3; 
   }
 
   li {
