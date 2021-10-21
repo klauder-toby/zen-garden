@@ -178,11 +178,11 @@ ul{
     transition: transform .2s;
   }
 
-  .footer {
+  footer {
       text-align: center;
       width: 80%;  
   }
 
-  .footer > a {
+  footer > a {
       padding: 20px; 
   }
