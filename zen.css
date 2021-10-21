@@ -163,12 +163,12 @@ ul{
 
   li:nth-child(odd):hover { 
     transform: scale(1.5);
-    border: 1px solid black; 
+    border: 1px solid rgb(138, 88, 76); 
   }
 
   li:nth-child(even):hover {
     transform: scale(1.5);
-    border: 1px solid black; 
+    border: 1px solid rgb(79, 88, 61); 
   }
 
   li {
