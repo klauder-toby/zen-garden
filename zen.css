@@ -152,14 +152,17 @@ ul{
 
   .select {
       text-align: center; 
+      margin-right: 10px; 
   }
 
   .archives {
       text-align: center; 
+      margin-right: 10px; 
   }
 
   .resources {
       text-align: center; 
+      margin-right: 10px; 
   }
 
   li:nth-child(odd):hover { 
@@ -176,10 +179,9 @@ ul{
     width: 200px;
     margin-top: 38px;
     margin-right: 20px;
-    margin-left: 49px; 
+    margin-left: 10px;
     transition: transform .2s;
-  }
-
+}
   footer {
       text-align: center;
   }
