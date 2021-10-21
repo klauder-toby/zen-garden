@@ -175,7 +175,8 @@ ul{
   li {
     width: 200px;
     margin-top: 38px;
-    margin-left: 50px;
+    margin-left: 20px;
+    margin-left: 49px; 
     transition: transform .2s;
   }
 
