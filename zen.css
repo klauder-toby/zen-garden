@@ -171,11 +171,6 @@ ul{
     border: 1px solid rgb(79, 88, 61); 
   }
 
-  .preamble:after{
-      content: url(footprint.png); 
-      z-index: 3; 
-  }
-
   li {
     width: 200px;
     margin-top: 38px;
