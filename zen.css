@@ -162,13 +162,16 @@ ul{
   }
 
   li:nth-child(odd):hover { 
-    background-color: rgb(65,83,59); 
+    transform: scale(1.5);
   }
 
   li:nth-child(even):hover {
-    background-color: rgb(28,34,46);
+    transform: scale(1.5);
   }
 
   li {
-      margin-right: 40px; 
+      width: 100px;
+      height: 100px;
+      margin: 32px auto;
+      transition: transform .2s; /* Animation */
   }
