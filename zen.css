@@ -163,15 +163,17 @@ ul{
 
   li:nth-child(odd):hover { 
     transform: scale(1.5);
+    border: 1px solid black; 
   }
 
   li:nth-child(even):hover {
     transform: scale(1.5);
+    border: 1px solid black; 
   }
 
   li {
-      width: 100px;
-      height: 100px;
-      margin: 32px auto;
-      transition: transform .2s; /* Animation */
+    width: 200px;
+    margin-top: 38px;
+    margin-left: 50px;
+    transition: transform .2s;
   }
