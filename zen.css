@@ -39,9 +39,10 @@ h2 {
 }
 
 .preamble:after {
-    background: url("footprint.png") no-repeat;
+    background: url("footprint2.png") no-repeat;
     display: table-cell; 
     content: '';
+    width: 20%; 
 }
 
 .explanation {
