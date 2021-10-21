@@ -51,14 +51,13 @@ h2 {
     margin-top: 30px; 
 }
 
-.explanation {
-    display: table; 
-    width: 80%; 
+.explanation { 
+    width: 40%; 
     margin-top: 30px; 
+    float: right; 
 }
 
 .participation {
-    display: table-cell; 
     width: 40%; 
 }
 
